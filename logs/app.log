@@ -584,3 +584,118 @@ Session ID: 844abf9214473c302b2ba753d302b99d
 2025-07-01 22:17:00 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
 2025-07-01 22:17:00 [main] INFO  ActionDriver - Element is visible
 2025-07-01 22:17:03 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:24:09 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:24:21 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:24:21 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:24:22 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:24:23 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:24:25 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:24:26 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 22:24:26 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:24:27 [main] INFO  ActionDriver - clicked an element --->Element with text: FirstNameTest LastNa...
+2025-07-01 22:24:28 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 22:24:39 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:29:14 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:29:23 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:29:23 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:29:23 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:29:23 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:29:25 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:29:38 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:32:44 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:32:53 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:32:53 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:32:54 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:32:54 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:32:56 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:33:07 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:35:10 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:35:19 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:35:19 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:35:20 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:35:20 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:35:21 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:35:33 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:37:53 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:38:02 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:38:02 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:38:03 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:38:03 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:38:03 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:38:05 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 22:38:05 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:38:06 [main] INFO  ActionDriver - clicked an element --->Element with text: Benvilson Motta
+2025-07-01 22:38:07 [main] INFO  ActionDriver - clicked an element --->Element with class: oxd-userdropdown-link
+2025-07-01 22:38:18 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:41:26 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:41:35 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:41:35 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:41:35 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:41:35 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:41:37 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:41:48 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:43:55 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:44:04 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:44:04 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:44:04 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:44:05 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:44:06 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:44:18 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:45:51 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:46:00 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:46:00 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:46:01 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:46:01 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:46:03 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:46:04 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 22:46:04 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:46:04 [main] INFO  ActionDriver - clicked an element --->Element with text: Rafael Bortoluzzi
+2025-07-01 22:46:06 [main] INFO  ActionDriver - clicked an element --->Element with class: oxd-userdropdown-link
+2025-07-01 22:46:07 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:46:23 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:46:31 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:46:31 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:46:31 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:46:32 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:46:33 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:46:35 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 22:46:35 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:46:35 [main] INFO  ActionDriver - clicked an element --->Element with text: Rafael Bortoluzzi
+2025-07-01 22:46:36 [main] INFO  ActionDriver - clicked an element --->Element with class: oxd-userdropdown-link
+2025-07-01 22:46:38 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:53:12 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:53:20 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:53:20 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:53:20 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-01 22:53:21 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-01 22:53:22 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:53:26 [main] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-01 22:53:27 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:53:34 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:53:34 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:53:35 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:53:35 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:53:37 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:53:39 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 22:53:39 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:53:39 [main] INFO  ActionDriver - clicked an element --->Element with text: Rafael Bortoluzzi
+2025-07-01 22:53:41 [main] INFO  ActionDriver - clicked an element --->Element with class: oxd-userdropdown-link
+2025-07-01 22:53:42 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:53:57 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:54:05 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:54:05 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:54:06 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:54:06 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:54:06 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:54:10 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 22:54:10 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:54:11 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:56:49 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:56:56 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:56:56 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:56:56 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:56:57 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:56:58 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:57:02 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 22:57:02 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:57:03 [main] INFO  BaseClass - WebDriver instance is closed

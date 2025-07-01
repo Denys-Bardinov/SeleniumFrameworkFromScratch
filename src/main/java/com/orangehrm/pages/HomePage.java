@@ -2,11 +2,14 @@ package com.orangehrm.pages;
 
 import com.orangehrm.actiondriver.ActionDriver;
 import com.orangehrm.base.BaseClass;
+import com.orangehrm.utilities.NetworkWaiter;
 import org.openqa.selenium.By;
 
 public class HomePage {
 
     private ActionDriver actionDriver;
+    private final NetworkWaiter networkWaiter = BaseClass.getNetworkWaiter();
+
 
     private By adminTab = By.xpath("//span[text()='Admin']");
     private By userIdButton = By.className("oxd-userdropdown-name");
@@ -29,8 +32,10 @@ public class HomePage {
 
     //Method to perform logout operation
     public void logout() {
+        networkWaiter.reset();
         actionDriver.click(userIdButton);
         actionDriver.click(logoutButton);
+        networkWaiter.waitForAllNetworkRequestsToFinish(java.time.Duration.ofSeconds(10));
     }
 
 

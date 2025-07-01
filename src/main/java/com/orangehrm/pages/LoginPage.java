@@ -2,11 +2,14 @@ package com.orangehrm.pages;
 
 import com.orangehrm.actiondriver.ActionDriver;
 import com.orangehrm.base.BaseClass;
+import com.orangehrm.utilities.NetworkWaiter;
 import org.openqa.selenium.By;
 
 public class LoginPage {
 
     private ActionDriver actionDriver;
+    private final NetworkWaiter networkWaiter = BaseClass.getNetworkWaiter();
+
 
     //Define locators using By class
 
@@ -21,9 +24,11 @@ public class LoginPage {
 
     // Method to perform login
     public void login(String userName, String password) {
+        networkWaiter.reset();
         actionDriver.enterText(userNameField, userName);
         actionDriver.enterText(passwordField, password);
         actionDriver.click(loginButton);
+        networkWaiter.waitForAllNetworkRequestsToFinish(java.time.Duration.ofSeconds(10));
     }
 
     //Method to check if error message is displayed

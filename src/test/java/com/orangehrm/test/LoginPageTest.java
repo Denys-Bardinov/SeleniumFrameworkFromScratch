@@ -7,6 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 public class LoginPageTest extends BaseClass {
 
     private LoginPage loginPage;
@@ -21,7 +23,6 @@ public class LoginPageTest extends BaseClass {
     @Test
     public void verifyLoginTest() {
         loginPage.login("Admin", "admin123");
-        staticWait(3);
         Assert.assertTrue(homePage.isAdminTabVisible(), "Admin tab should be visible after successful login");
         homePage.logout();
     }

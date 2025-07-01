@@ -2,6 +2,7 @@ package com.orangehrm.base;
 
 import com.orangehrm.actiondriver.ActionDriver;
 import com.orangehrm.utilities.LoggerManager;
+import com.orangehrm.utilities.NetworkWaiter;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -30,6 +31,9 @@ public class BaseClass {
 
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>();
+    private static ThreadLocal<DevTools> devTools = new ThreadLocal<>();
+    private static ThreadLocal<NetworkWaiter> networkWaiter = new ThreadLocal<>();
+
     public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 
     @BeforeMethod
@@ -46,7 +50,6 @@ public class BaseClass {
         logger.info("ActionDriver initialized for Thread: " + Thread.currentThread().getName());
     }
 
-    //Load the configuration file
     @BeforeSuite
     public void loadConfig() {
         properties = new Properties();
@@ -63,18 +66,25 @@ public class BaseClass {
     private void launchBrowser() {
         String browser = properties.getProperty("browser");
 
-        ChromeOptions options = new ChromeOptions();
-// НЕ добавляй headless
-        options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
-        options.setExperimentalOption("useAutomationExtension", false);
+
         if (browser.equalsIgnoreCase("chrome")) {
-//            driver = new ChromeDriver();
-            driver.set(new ChromeDriver(options));
+            ChromeDriver chromeDriver = new ChromeDriver();
+            driver.set(chromeDriver);
+
+            // Инициализация DevTools
+            DevTools dt = chromeDriver.getDevTools();
+            dt.createSession();
+            devTools.set(dt);
+
+            // Инициализация NetworkWaiter
+            NetworkWaiter waiter = new NetworkWaiter(dt);
+            waiter.startTracking();
+            networkWaiter.set(waiter);
+
         } else if (browser.equalsIgnoreCase("firefox")) {
-//            driver = new FirefoxDriver();
             driver.set(new FirefoxDriver());
+
         } else if (browser.equalsIgnoreCase("edge")) {
-//            driver = new EdgeDriver();
             driver.set(new EdgeDriver());
 
         } else {
@@ -83,17 +93,11 @@ public class BaseClass {
     }
 
     private void configureBrowser() {
-        // Implicit Wait
         int implicitWait = Integer.parseInt(properties.getProperty("implicitWait"));
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
-
-        // Maximize the browser
         getDriver().manage().window().maximize();
-
-        //Navigate to URL
         getDriver().get(properties.getProperty("url"));
     }
-
 
     @AfterMethod
     public void tearDown() {
@@ -101,10 +105,10 @@ public class BaseClass {
             getDriver().quit();
         }
         logger.info("WebDriver instance is closed");
-//        driver = null;
-//        actionDriver = null;
         driver.remove();
         actionDriver.remove();
+        devTools.remove();
+        networkWaiter.remove();
     }
 
     public static WebDriver getDriver() {
@@ -123,15 +127,29 @@ public class BaseClass {
         return actionDriver.get();
     }
 
-    public static void setDriver(ThreadLocal<WebDriver> driver) {
-        BaseClass.driver = driver;
+    public static DevTools getDevTools() {
+        if (devTools.get() == null) {
+            throw new IllegalStateException("DevTools is not initialized");
+        }
+        return devTools.get();
+    }
+
+    public static NetworkWaiter getNetworkWaiter() {
+        if (networkWaiter.get() == null) {
+            throw new IllegalStateException("NetworkWaiter is not initialized");
+        }
+        return networkWaiter.get();
+    }
+
+    public void staticWait(int seconds) {
+        LockSupport.parkNanos(TimeUnit.SECONDS.toNanos(seconds));
     }
 
     public static Properties getProperties() {
         return properties;
     }
 
-    public void staticWait(int seconds) {
-        LockSupport.parkNanos(TimeUnit.SECONDS.toNanos(seconds));
+    public static void setDriver(ThreadLocal<WebDriver> driver) {
+        BaseClass.driver = driver;
     }
 }
