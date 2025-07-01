@@ -72,10 +72,10 @@ public class NetworkWaiter {
             if (activeRequests.isEmpty()) return;
 
             if (Duration.between(startTime, Instant.now()).compareTo(timeout) > 0) {
-                System.out.println("⚠️ WARNING: Not all network requests finished in time.");
+                System.out.println("WARNING: Not all network requests finished in time.");
                 System.out.println("❗ ACTIVE REQUESTS AT TIMEOUT:");
                 activeRequests.forEach(id ->
-                        System.out.println("  🔴 Request still active: " + id)
+                        System.out.println("  Request still active: " + id)
                 );
                 return; // просто выйти без падения теста
             }
