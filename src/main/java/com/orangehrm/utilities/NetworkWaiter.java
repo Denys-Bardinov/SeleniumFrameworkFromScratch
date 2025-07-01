@@ -84,7 +84,7 @@ public class NetworkWaiter {
                 Thread.sleep(200);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
-                System.out.println("⚠️ WARNING: Network wait interrupted.");
+                System.out.println("WARNING: Network wait interrupted.");
                 return;
             }
         }
