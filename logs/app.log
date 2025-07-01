@@ -1,0 +1,586 @@
+2025-06-30 18:03:15 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 18:03:22 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 18:03:22 [main] INFO  BaseClass - Action driver instance is created
+2025-06-30 18:03:23 [main] INFO  ActionDriver - Entered text on: Element with name: username Admi
+2025-06-30 18:03:23 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-06-30 18:03:24 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-06-30 18:04:11 [main] INFO  BaseClass - WebDriver instance is closed
+2025-06-30 23:18:11 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:18:27 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:18:27 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-2
+2025-06-30 23:18:27 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:18:27 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-1
+2025-06-30 23:19:09 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f67dfc65cc57aadc5ad9f98fb929a0fd, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54936/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f67dfc65cc57aadc5ad9f98fb929a0fd
+2025-06-30 23:19:09 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa153fbf3d9ed952eba9521008bd2bb4, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54954/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa153fbf3d9ed952eba9521008bd2bb4
+2025-06-30 23:19:30 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:19:37 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:19:37 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:20:19 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ea6d08c781137df66fe0382ce675f9b, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55273/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ea6d08c781137df66fe0382ce675f9b
+2025-06-30 23:21:00 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ea6d08c781137df66fe0382ce675f9b, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55273/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ea6d08c781137df66fe0382ce675f9b
+2025-06-30 23:22:23 [main] INFO  ActionDriver - Unable to click  an element no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ea6d08c781137df66fe0382ce675f9b, findElement {using=xpath, value=//button[text()=' Login ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55273/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ea6d08c781137df66fe0382ce675f9b
+2025-06-30 23:23:10 [main] INFO  BaseClass - WebDriver instance is closed
+2025-06-30 23:23:17 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:23:17 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:24:01 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:24:10 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:24:10 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:24:51 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cddce9b93ab5d89d45a78d4a1696a3bf, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56369/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cddce9b93ab5d89d45a78d4a1696a3bf
+2025-06-30 23:25:32 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cddce9b93ab5d89d45a78d4a1696a3bf, findElement {value=input[type='password'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56369/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cddce9b93ab5d89d45a78d4a1696a3bf
+2025-06-30 23:26:55 [main] INFO  ActionDriver - Unable to click  an element no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cddce9b93ab5d89d45a78d4a1696a3bf, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56369/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cddce9b93ab5d89d45a78d4a1696a3bf
+2025-06-30 23:27:42 [main] INFO  BaseClass - WebDriver instance is closed
+2025-06-30 23:27:48 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:27:48 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:28:30 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c797805fc087f2f2f970d38d5aedd8c, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57243/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c797805fc087f2f2f970d38d5aedd8c
+2025-06-30 23:29:52 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:30:00 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:30:00 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:30:41 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb2cb2bd64468f1f47d5ee3cd5ab2f86, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57778/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb2cb2bd64468f1f47d5ee3cd5ab2f86
+2025-06-30 23:31:23 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb2cb2bd64468f1f47d5ee3cd5ab2f86, findElement {value=input[type='password'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57778/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb2cb2bd64468f1f47d5ee3cd5ab2f86
+2025-06-30 23:32:25 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:32:31 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:32:31 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:33:05 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:33:12 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:33:12 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:33:53 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [618a9af0c0f06abd64e648e62ceab4fd, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58565/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 618a9af0c0f06abd64e648e62ceab4fd
+2025-06-30 23:34:34 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [618a9af0c0f06abd64e648e62ceab4fd, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58565/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 618a9af0c0f06abd64e648e62ceab4fd
+2025-06-30 23:35:57 [main] INFO  ActionDriver - Unable to click  an element no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [618a9af0c0f06abd64e648e62ceab4fd, findElement {using=xpath, value=//button[text()=' Login ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58565/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 618a9af0c0f06abd64e648e62ceab4fd
+2025-06-30 23:36:44 [main] INFO  BaseClass - WebDriver instance is closed
+2025-06-30 23:44:23 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:44:31 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:44:31 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:45:12 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bc712ad3c246d7a8d4d91f3a06d733e, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61046/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc712ad3c246d7a8d4d91f3a06d733e
+2025-06-30 23:45:54 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bc712ad3c246d7a8d4d91f3a06d733e, findElement {value=input[type='password'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61046/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc712ad3c246d7a8d4d91f3a06d733e
+2025-06-30 23:47:16 [main] INFO  ActionDriver - Unable to click  an element no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bc712ad3c246d7a8d4d91f3a06d733e, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61046/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc712ad3c246d7a8d4d91f3a06d733e
+2025-06-30 23:47:56 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:48:05 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:48:05 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:48:31 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:48:38 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:48:38 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:49:20 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b26f4e7ea140d31c8f62c7c402d3c972, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62015/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b26f4e7ea140d31c8f62c7c402d3c972
+2025-06-30 23:50:22 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:50:30 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:50:30 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:51:12 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c2ab3d4a1213a415da781255cac03af, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62478/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c2ab3d4a1213a415da781255cac03af
+2025-06-30 23:52:53 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:54:04 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:54:12 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:54:12 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:54:53 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29ec376c4cfd351f8d49eadd4dbfb557, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63426/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29ec376c4cfd351f8d49eadd4dbfb557
+2025-06-30 23:55:17 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:55:25 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:55:25 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-06-30 23:55:51 [main] INFO  BaseClass - config.properties file loaded
+2025-06-30 23:55:59 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-06-30 23:55:59 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 00:01:11 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 00:01:20 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 00:01:20 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 00:02:01 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ac701dba0127e43d0f4e9aedd269f64, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65293/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ac701dba0127e43d0f4e9aedd269f64
+2025-07-01 00:02:42 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ac701dba0127e43d0f4e9aedd269f64, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65293/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ac701dba0127e43d0f4e9aedd269f64
+2025-07-01 00:03:30 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 00:03:38 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 00:03:38 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 00:04:19 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be8d8ff55529d9a21e68c873c0408744, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50469/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be8d8ff55529d9a21e68c873c0408744
+2025-07-01 00:05:02 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [be8d8ff55529d9a21e68c873c0408744, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50469/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be8d8ff55529d9a21e68c873c0408744
+2025-07-01 00:06:21 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 00:06:34 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 00:06:34 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 00:06:56 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 00:07:51 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 00:07:59 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 00:07:59 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 00:08:41 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f8d72f92d7b867ca1197595115be93d, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51651/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8d72f92d7b867ca1197595115be93d
+2025-07-01 00:09:22 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f8d72f92d7b867ca1197595115be93d, findElement {value=input[type='password'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51651/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8d72f92d7b867ca1197595115be93d
+2025-07-01 00:10:14 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 00:10:23 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 00:10:23 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 00:11:04 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6014c7dd8811b6a3cae4bda9480cc21f, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52257/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6014c7dd8811b6a3cae4bda9480cc21f
+2025-07-01 00:11:45 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6014c7dd8811b6a3cae4bda9480cc21f, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52257/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6014c7dd8811b6a3cae4bda9480cc21f
+2025-07-01 00:17:18 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 00:17:30 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 00:17:30 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 00:18:13 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [844abf9214473c302b2ba753d302b99d, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50863/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 844abf9214473c302b2ba753d302b99d
+2025-07-01 00:18:54 [main] INFO  ActionDriver - Unable to enter the value in input box no such element: Unable to locate element: {"method":"css selector","selector":"input[type='password']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [844abf9214473c302b2ba753d302b99d, findElement {using=css selector, value=input[type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50863/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 844abf9214473c302b2ba753d302b99d
+2025-07-01 00:20:17 [main] INFO  ActionDriver - Unable to click  an element no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=138.0.7204.49)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [844abf9214473c302b2ba753d302b99d, findElement {using=xpath, value=//button[text()=' Login ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50863/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 844abf9214473c302b2ba753d302b99d
+2025-07-01 00:21:04 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 09:14:52 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 09:14:58 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 09:14:58 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 09:14:58 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 09:14:58 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 09:15:00 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 09:15:05 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 09:15:05 [main] INFO  ActionDriver - Element is visible
+2025-07-01 09:15:06 [main] INFO  ActionDriver - clicked an element --->Element with text: Hemanth Godula
+2025-07-01 09:15:07 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 09:15:10 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 20:40:33 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 20:40:42 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 20:40:42 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 20:40:42 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 20:40:43 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 20:40:44 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 20:40:56 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 20:41:42 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 20:41:53 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 20:41:53 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 20:41:53 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 20:41:54 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 20:41:56 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 20:42:08 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 20:42:24 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 20:42:32 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 20:42:32 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 20:42:33 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 20:42:33 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 20:42:35 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 20:42:56 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:03:39 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:03:48 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:03:48 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:03:49 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:03:50 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:03:52 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:04:13 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:05:18 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:05:27 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:05:27 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:05:27 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:05:28 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:05:29 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:05:50 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:09:12 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:09:21 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:09:21 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:09:22 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:09:22 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:09:23 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:09:24 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 21:09:24 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:09:25 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:10:38 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:10:45 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:10:45 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:10:46 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:10:46 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:10:47 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:10:49 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 21:10:49 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:10:50 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:11:28 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:11:36 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:11:36 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:11:36 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:11:37 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:11:37 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:11:39 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 21:11:39 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:11:40 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:12:17 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:12:24 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:12:24 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:12:25 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:12:25 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:12:25 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:12:28 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 21:12:28 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:12:30 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:20:44 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:20:53 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:20:53 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:20:54 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-01 21:20:54 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-01 21:20:55 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:21:07 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:21:13 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:21:13 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:21:14 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:21:15 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:21:15 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:21:17 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 21:21:17 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:21:18 [main] INFO  ActionDriver - clicked an element --->Element with text: Jesse Vandenkerckhov...
+2025-07-01 21:21:19 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 21:21:20 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:22:04 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:22:14 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:22:14 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:22:14 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-01 21:22:14 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-01 21:22:15 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:22:16 [main] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-01 21:22:17 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:22:25 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:22:25 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:22:25 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:22:26 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:22:26 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:22:28 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 21:22:28 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:22:29 [main] INFO  ActionDriver - clicked an element --->Element with text: Jesse Vandenkerckhov...
+2025-07-01 21:22:30 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 21:22:32 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:29:02 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:29:11 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:29:11 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:29:12 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-01 21:29:12 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-01 21:29:14 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:29:25 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:29:33 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:29:33 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:29:33 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:29:34 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:29:34 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:29:36 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 21:29:36 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:29:37 [main] INFO  ActionDriver - clicked an element --->Element with text: Jesse Vandenkerckhov...
+2025-07-01 21:29:38 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 21:29:51 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:45:31 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:45:40 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:45:40 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:45:42 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-01 21:45:42 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-01 21:45:42 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:45:44 [main] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-01 21:45:45 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:45:53 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:45:53 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:45:54 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:45:54 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:45:56 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:46:07 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:46:58 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:47:08 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:47:08 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:47:08 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-01 21:47:09 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-01 21:47:09 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:47:10 [main] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-01 21:47:11 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:47:18 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:47:18 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:47:19 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:47:19 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:47:21 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:47:23 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 21:47:23 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:47:23 [main] INFO  ActionDriver - clicked an element --->Element with text: Robot big
+2025-07-01 21:47:24 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 21:47:35 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:51:22 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:51:31 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:51:31 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:51:31 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-01 21:51:32 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-01 21:51:32 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:51:33 [main] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-01 21:51:34 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:51:40 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:51:40 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:51:40 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:51:41 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:51:41 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:51:52 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 21:52:54 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 21:53:02 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 21:53:02 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 21:53:02 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 21:53:03 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 21:53:03 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 21:53:05 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 21:53:05 [main] INFO  ActionDriver - Element is visible
+2025-07-01 21:53:06 [main] INFO  ActionDriver - clicked an element --->Element with text: Robot big
+2025-07-01 21:53:07 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 21:53:18 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:00:59 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:01:08 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:01:08 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:01:09 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:01:09 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:01:10 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:01:11 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 22:01:11 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:01:12 [main] INFO  ActionDriver - clicked an element --->Element with text: manda user
+2025-07-01 22:01:13 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 22:01:24 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:02:36 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:02:45 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:02:45 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:02:46 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:02:46 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:02:47 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:02:48 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-01 22:02:48 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:02:49 [main] INFO  ActionDriver - clicked an element --->Element with text: manda user
+2025-07-01 22:02:51 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-01 22:03:02 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:06:45 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:06:54 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:06:54 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:06:54 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:06:54 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:06:55 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:06:58 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 22:06:58 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:06:59 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-01 22:16:47 [main] INFO  BaseClass - config.properties file loaded
+2025-07-01 22:16:56 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-01 22:16:56 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-01 22:16:56 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-01 22:16:57 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-01 22:16:57 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-01 22:17:00 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-01 22:17:00 [main] INFO  ActionDriver - Element is visible
+2025-07-01 22:17:03 [main] INFO  BaseClass - WebDriver instance is closed
