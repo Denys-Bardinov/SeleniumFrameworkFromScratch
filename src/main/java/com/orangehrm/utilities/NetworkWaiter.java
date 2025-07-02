@@ -15,9 +15,14 @@ import java.util.concurrent.ConcurrentHashMap;
 public class NetworkWaiter {
 
     private final DevTools devTools;
+
+    // Потокобезопасные множества
     private final Set<String> activeRequests = ConcurrentHashMap.newKeySet();
     private final Set<String> completedRequests = ConcurrentHashMap.newKeySet();
     private final Set<String> earlyFinishedRequests = ConcurrentHashMap.newKeySet();
+
+    // Объект синхронизации для сложных условий
+    private final Object lock = new Object();
 
     public NetworkWaiter(DevTools devTools) {
         this.devTools = devTools;
@@ -29,55 +34,61 @@ public class NetworkWaiter {
         devTools.addListener(Network.requestWillBeSent(), event -> {
             String id = event.getRequestId().toString();
 
-            // Если уже завершено, не добавляем
-            if (completedRequests.contains(id)) return;
+            synchronized (lock) {
+                if (completedRequests.contains(id)) return;
 
-
-            if (earlyFinishedRequests.contains(id)) {
-                // Уже завершён — не добавляем
-                earlyFinishedRequests.remove(id);
-                completedRequests.add(id);
-            } else {
-                activeRequests.add(id);
+                if (earlyFinishedRequests.remove(id)) {
+                    completedRequests.add(id);
+                } else {
+                    activeRequests.add(id);
+                }
             }
         });
 
         devTools.addListener(Network.loadingFinished(), event -> {
             String id = event.getRequestId().toString();
 
-            if (!activeRequests.remove(id)) {
-                earlyFinishedRequests.add(id);
+            synchronized (lock) {
+                if (!activeRequests.remove(id)) {
+                    earlyFinishedRequests.add(id);
+                }
             }
         });
 
         devTools.addListener(Network.loadingFailed(), event -> {
             String id = event.getRequestId().toString();
 
-            if (!activeRequests.remove(id)) {
-                earlyFinishedRequests.add(id);
+            synchronized (lock) {
+                if (!activeRequests.remove(id)) {
+                    earlyFinishedRequests.add(id);
+                }
             }
         });
     }
 
     public void reset() {
-        activeRequests.clear();
-        completedRequests.clear();
-        earlyFinishedRequests.clear();
+        synchronized (lock) {
+            activeRequests.clear();
+            completedRequests.clear();
+            earlyFinishedRequests.clear();
+        }
     }
 
     public void waitForAllNetworkRequestsToFinish(Duration timeout) {
         Instant startTime = Instant.now();
 
         while (true) {
-            if (activeRequests.isEmpty()) return;
+            synchronized (lock) {
+                if (activeRequests.isEmpty()) return;
 
-            if (Duration.between(startTime, Instant.now()).compareTo(timeout) > 0) {
-                System.out.println("WARNING: Not all network requests finished in time.");
-                System.out.println("❗ ACTIVE REQUESTS AT TIMEOUT:");
-                activeRequests.forEach(id ->
-                        System.out.println("  Request still active: " + id)
-                );
-                return; // просто выйти без падения теста
+                if (Duration.between(startTime, Instant.now()).compareTo(timeout) > 0) {
+                    System.out.println("WARNING: Not all network requests finished in time.");
+                    System.out.println("❗ ACTIVE REQUESTS AT TIMEOUT:");
+                    activeRequests.forEach(id ->
+                            System.out.println("  Request still active: " + id)
+                    );
+                    return;
+                }
             }
 
             try {
