@@ -4,12 +4,9 @@ import com.orangehrm.actiondriver.ActionDriver;
 import com.orangehrm.utilities.LoggerManager;
 import com.orangehrm.utilities.NetworkWaiter;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v137.page.Page;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -19,8 +16,6 @@ import org.testng.annotations.BeforeSuite;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.Optional;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
@@ -37,7 +32,7 @@ public class BaseClass {
     public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 
     @BeforeMethod
-    public void setup() {
+    public synchronized void setup() throws IOException {
         System.out.println("Setting up WebDriver for:" + this.getClass().getSimpleName());
         launchBrowser();
         configureBrowser();
@@ -63,7 +58,7 @@ public class BaseClass {
     }
 
     // Initialize WebDriver based on properties file
-    private void launchBrowser() {
+    private synchronized void launchBrowser() {
         String browser = properties.getProperty("browser");
 
 
@@ -100,7 +95,7 @@ public class BaseClass {
     }
 
     @AfterMethod
-    public void tearDown() {
+    public synchronized void tearDown() {
         if (getDriver() != null) {
             getDriver().quit();
         }

@@ -699,3 +699,106 @@ Session ID: 844abf9214473c302b2ba753d302b99d
 2025-07-01 22:57:02 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
 2025-07-01 22:57:02 [main] INFO  ActionDriver - Element is visible
 2025-07-01 22:57:03 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-02 08:55:56 [main] INFO  BaseClass - config.properties file loaded
+2025-07-02 08:56:03 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-02 08:56:03 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-02 08:56:04 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-02 08:56:04 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-02 08:56:04 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-02 08:56:05 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-02 08:56:05 [main] INFO  ActionDriver - Element is visible
+2025-07-02 08:56:06 [main] INFO  ActionDriver - clicked an element --->Element with text: John Doe
+2025-07-02 08:56:06 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-02 08:56:17 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-02 09:01:51 [main] INFO  BaseClass - config.properties file loaded
+2025-07-02 09:02:00 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-02 09:02:00 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-2
+2025-07-02 09:02:00 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-02 09:02:00 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-02 09:02:01 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-02 09:02:01 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-1
+2025-07-02 09:02:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-02 09:02:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-02 09:02:02 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-02 09:02:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-02 09:02:06 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-02 09:02:06 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-02 09:02:06 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2025-07-02 09:02:06 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2025-07-02 09:02:07 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2025-07-02 09:02:12 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-02 09:02:12 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-1
+2025-07-02 09:02:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-02 09:02:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-02 09:02:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-02 09:02:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-02 09:02:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2025-07-02 09:02:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with text: John Doe
+2025-07-02 09:02:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with class: oxd-userdropdown-link
+2025-07-02 09:02:19 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2025-07-24 22:26:16 [main] INFO  BaseClass - config.properties file loaded
+2025-07-24 22:26:29 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-24 22:26:29 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-2
+2025-07-24 22:26:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-24 22:26:31 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-24 22:26:31 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-1
+2025-07-24 22:26:31 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-24 22:26:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-24 22:26:32 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-24 22:26:34 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-24 22:26:34 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-24 22:26:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-24 22:26:39 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-24 22:26:39 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2025-07-24 22:26:39 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2025-07-24 22:26:40 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2025-07-24 22:26:48 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-24 22:26:48 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-1
+2025-07-24 22:26:49 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-24 22:26:49 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for Thread: TestNG-test-OrangeHRMTest-2
+2025-07-24 22:26:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-24 22:26:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-24 22:26:50 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is closed
+2025-07-24 22:26:52 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-24 22:26:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-24 22:26:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2025-07-24 22:26:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with text: manda user
+2025-07-24 22:26:56 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-24 22:26:58 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2025-07-24 23:08:40 [main] INFO  BaseClass - config.properties file loaded
+2025-07-24 23:09:52 [main] INFO  BaseClass - config.properties file loaded
+2025-07-24 23:10:03 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-24 23:10:03 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-24 23:10:47 [main] INFO  BaseClass - config.properties file loaded
+2025-07-24 23:11:02 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-24 23:11:02 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-25 11:01:12 [main] INFO  BaseClass - config.properties file loaded
+2025-07-25 11:01:25 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-25 11:01:25 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-25 11:01:26 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-25 11:01:27 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-25 11:01:28 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-25 11:01:33 [main] INFO  ActionDriver - Element is displayed Unable to describe the element
+2025-07-25 11:01:33 [main] INFO  ActionDriver - Element is visible
+2025-07-25 11:01:34 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-25 14:44:09 [main] INFO  BaseClass - config.properties file loaded
+2025-07-25 14:46:16 [main] INFO  BaseClass - config.properties file loaded
+2025-07-25 14:54:40 [main] INFO  BaseClass - config.properties file loaded
+2025-07-25 14:54:50 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-25 14:54:50 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-25 14:54:50 [main] INFO  ActionDriver - Entered text on: Element with name: username abcd
+2025-07-25 14:54:50 [main] INFO  ActionDriver - Entered text on: Element with name: password abcd
+2025-07-25 14:54:51 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-25 14:54:55 [main] INFO  ActionDriver - Text are matching: Invalid credentials equals Invalid credentials
+2025-07-25 14:54:56 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-25 14:57:15 [main] INFO  BaseClass - config.properties file loaded
+2025-07-25 14:57:23 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-25 14:57:23 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-25 14:57:23 [main] INFO  ActionDriver - Entered text on: Element with name: username Admin
+2025-07-25 14:57:24 [main] INFO  ActionDriver - Entered text on: Element with name: password admin123
+2025-07-25 14:57:25 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-25 14:57:26 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2025-07-25 14:57:26 [main] INFO  ActionDriver - Element is visible
+2025-07-25 14:57:26 [main] INFO  ActionDriver - clicked an element --->Element with text: manda user
+2025-07-25 14:57:27 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
+2025-07-25 14:57:29 [main] INFO  BaseClass - WebDriver instance is closed
