@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.asserts.SoftAssert;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -28,8 +29,13 @@ public class BaseClass {
     private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>();
     private static ThreadLocal<DevTools> devTools = new ThreadLocal<>();
     private static ThreadLocal<NetworkWaiter> networkWaiter = new ThreadLocal<>();
+    protected ThreadLocal<SoftAssert> softAssertThreadLocal = ThreadLocal.withInitial(SoftAssert::new);
 
     public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
+
+    public SoftAssert getSoftAssert() {
+        return softAssertThreadLocal.get();
+    }
 
     @BeforeMethod
     public synchronized void setup() throws IOException {

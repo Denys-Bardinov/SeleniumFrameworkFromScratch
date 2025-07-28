@@ -802,3 +802,152 @@ Session ID: 844abf9214473c302b2ba753d302b99d
 2025-07-25 14:57:26 [main] INFO  ActionDriver - clicked an element --->Element with text: manda user
 2025-07-25 14:57:27 [main] INFO  ActionDriver - clicked an element --->Element with text: Logout
 2025-07-25 14:57:29 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 15:49:23 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 15:49:37 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 15:49:37 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 15:49:38 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 15:49:38 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 15:49:40 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 15:51:36 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 15:51:45 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 15:51:45 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 15:51:46 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 15:51:46 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 15:51:50 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 15:51:57 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 15:52:01 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 15:52:01 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 15:52:02 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 15:52:04 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 15:52:54 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 15:53:04 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 15:53:04 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 15:53:05 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 15:53:05 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 15:53:09 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 15:53:19 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 15:53:23 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 15:53:23 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 15:53:24 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 15:53:24 [main] INFO  DBConnection - DB connection successful
+2025-07-26 15:53:26 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 15:58:31 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 15:58:39 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 15:58:39 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 15:58:40 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 15:58:41 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 15:58:41 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 15:58:51 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 15:58:54 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 15:58:55 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 15:58:56 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 15:58:56 [main] INFO  DBConnection - DB connection successful
+2025-07-26 15:58:58 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 16:00:17 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 16:00:27 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 16:00:27 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 16:00:27 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 16:00:28 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 16:00:34 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 16:00:42 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 16:00:45 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 16:00:45 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 16:00:46 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 16:00:47 [main] INFO  DBConnection - DB connection successful
+2025-07-26 16:00:48 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 16:01:34 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 16:01:42 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 16:01:42 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 16:01:43 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 16:01:43 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 16:01:44 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 16:01:54 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 16:01:58 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 16:01:58 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 16:01:59 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 16:02:00 [main] INFO  DBConnection - DB connection successful
+2025-07-26 16:02:00 [main] INFO  DBConnection - Executing query: Select emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id = 1
+2025-07-26 16:02:00 [main] INFO  DBConnection - Query executed successfuly
+2025-07-26 16:02:00 [main] INFO  DBConnection - Employee Data fetched: {firstName=my, lastName=name, middleName=}
+2025-07-26 16:02:01 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 16:02:53 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 16:03:01 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 16:03:01 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 16:03:02 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 16:03:02 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 16:03:03 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 16:03:12 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 16:03:15 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 16:03:15 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 16:03:16 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 16:03:16 [main] INFO  DBConnection - DB connection successful
+2025-07-26 16:03:17 [main] INFO  DBConnection - Executing query: Select emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id = 2
+2025-07-26 16:03:17 [main] INFO  DBConnection - Query executed successfuly
+2025-07-26 16:03:17 [main] INFO  DBConnection - Employee Data fetched: {firstName=Igor, lastName=Kovalenko, middleName=}
+2025-07-26 16:03:18 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 16:04:45 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 16:04:53 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 16:04:53 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 16:04:54 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 16:04:54 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 16:04:57 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 16:05:03 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 16:05:05 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 16:05:06 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 16:05:06 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 16:05:07 [main] INFO  DBConnection - DB connection successful
+2025-07-26 16:05:07 [main] INFO  DBConnection - Executing query: Select emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id = 2
+2025-07-26 16:05:07 [main] INFO  DBConnection - Query executed successfuly
+2025-07-26 16:05:07 [main] INFO  DBConnection - Employee Data fetched: {firstName=Igor, lastName=Kovalenko, middleName=}
+2025-07-26 16:05:07 [main] INFO  ActionDriver - Text are matching: Igor equals Igor
+2025-07-26 16:05:07 [main] INFO  ActionDriver - Text are matching: Kovalenko equals Kovalenko
+2025-07-26 16:05:08 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 16:24:09 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 16:24:17 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 16:24:17 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 16:24:18 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 16:24:18 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 16:24:21 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 16:24:27 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 16:24:32 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 16:24:33 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 16:24:33 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 16:24:34 [main] INFO  DBConnection - DB connection successful
+2025-07-26 16:24:34 [main] INFO  DBConnection - Executing query: Select emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id = 2
+2025-07-26 16:24:34 [main] INFO  DBConnection - Query executed successfuly
+2025-07-26 16:24:34 [main] INFO  DBConnection - Employee Data fetched: {firstName=Igor, lastName=Kovalenko, middleName=}
+2025-07-26 16:24:34 [main] INFO  ActionDriver - Text are matching: Igor equals Igor
+2025-07-26 16:24:34 [main] INFO  ActionDriver - Text are matching: Kovalenko equals Kovalenko
+2025-07-26 16:24:35 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 16:24:52 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 16:25:00 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 16:25:00 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 16:25:01 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 16:25:01 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 16:25:02 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 16:25:10 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 16:25:13 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 16:25:13 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 16:25:14 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 16:25:14 [main] INFO  DBConnection - DB connection successful
+2025-07-26 16:25:14 [main] INFO  DBConnection - Executing query: Select emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id = 2
+2025-07-26 16:25:14 [main] INFO  DBConnection - Query executed successfuly
+2025-07-26 16:25:14 [main] INFO  DBConnection - Employee Data fetched: {firstName=Igor, lastName=Kovalenko, middleName=}
+2025-07-26 16:25:15 [main] INFO  ActionDriver - Text are matching: Kovalenko equals Kovalenko
+2025-07-26 16:25:16 [main] INFO  BaseClass - WebDriver instance is closed
+2025-07-26 16:25:58 [main] INFO  BaseClass - config.properties file loaded
+2025-07-26 16:26:07 [main] INFO  BaseClass - WebDriver initialized and browser maximised
+2025-07-26 16:26:07 [main] INFO  BaseClass - ActionDriver initialized for Thread: main
+2025-07-26 16:26:12 [main] INFO  ActionDriver - Entered text on: Element with name: username admin
+2025-07-26 16:26:12 [main] INFO  ActionDriver - Entered text on: Element with name: password Adminadmin1&
+2025-07-26 16:26:20 [main] INFO  ActionDriver - clicked an element --->Element with text: Login
+2025-07-26 16:26:25 [main] INFO  ActionDriver - clicked an element --->Element with text: PIM
+2025-07-26 16:26:29 [main] INFO  ActionDriver - Entered text on: Element with placeholder: Type for hints... Igor
+2025-07-26 16:26:30 [main] INFO  ActionDriver - clicked an element --->Element with text: Search
+2025-07-26 16:26:31 [main] INFO  DBConnection - Starting DB connection
+2025-07-26 16:26:31 [main] INFO  DBConnection - DB connection successful
+2025-07-26 16:26:31 [main] INFO  DBConnection - Executing query: Select emp_firstname, emp_middle_name, emp_lastname FROM hs_hr_employee WHERE employee_id = 2
+2025-07-26 16:26:31 [main] INFO  DBConnection - Query executed successfuly
+2025-07-26 16:26:31 [main] INFO  DBConnection - Employee Data fetched: {firstName=Igor, lastName=Kovalenko, middleName=}
+2025-07-26 16:26:45 [main] INFO  ActionDriver - Text are matching: Kovalenko equals Kovalenko
+2025-07-26 16:27:33 [main] INFO  BaseClass - WebDriver instance is closed

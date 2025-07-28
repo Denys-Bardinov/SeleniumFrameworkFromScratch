@@ -882,3 +882,167 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.49, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50863/devtoo..., se:cdpVersion: 138.0.7204.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 844abf9214473c302b2ba753d302b99d
 2025-07-01 00:21:03 [main] ERROR ActionDriver - Element is not displayed
+2025-07-26 15:49:50 [main] ERROR ActionDriver - Failed to describe element: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PIM']"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cdc8b5920a7deb9fbb25df26c7c9e3f, findElement {using=xpath, value=//span[text()='PIM']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53072}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53072/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cdc8b5920a7deb9fbb25df26c7c9e3f
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PIM']"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cdc8b5920a7deb9fbb25df26c7c9e3f, findElement {using=xpath, value=//span[text()='PIM']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53072}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53072/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cdc8b5920a7deb9fbb25df26c7c9e3f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at com.orangehrm.actiondriver.ActionDriver.getElementDescription(ActionDriver.java:145)
+	at com.orangehrm.actiondriver.ActionDriver.click(ActionDriver.java:32)
+	at com.orangehrm.pages.HomePage.clickOnPIMTab(HomePage.java:40)
+	at com.orangehrm.test.DBVerificationTest.verifyEmployeeNameFromDB(DBVerificationTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2025-07-26 15:50:21 [main] ERROR ActionDriver - Element is not visible Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='PIM'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53072}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53072/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cdc8b5920a7deb9fbb25df26c7c9e3f
+2025-07-26 15:52:02 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f4d6be14ea376059ac9508e27ed4dc0f, executeScript {script=argument[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.6931B9D1DB339EDC1F1A42CB8801CC3F.d.0BF152EBA2F68CFA8281D7033A1F9CDB.e.1325}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53246/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4d6be14ea376059ac9508e27ed4dc0f
+2025-07-26 15:52:03 [main] ERROR DBConnection - Error while establishing DB connection
+2025-07-26 15:52:03 [main] ERROR DBConnection - Error while executing query
+2025-07-26 15:52:03 [main] ERROR ActionDriver - Text are not matching: Igor not equals null null
+2025-07-26 15:53:24 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ab38b67991501b987e4c338a94fac95, executeScript {script=argument[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.FEBCFC33BC76231CDA51AE6AFEE35D7D.d.451FE00961585A6ED9D45EB7A4FE7E0F.e.1325}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53376/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ab38b67991501b987e4c338a94fac95
+2025-07-26 15:53:25 [main] ERROR DBConnection - Error while executing query
+2025-07-26 15:53:25 [main] ERROR ActionDriver - Text are not matching: Igor not equals null null
+2025-07-26 15:58:56 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb3d3e0ee7d95663cf53c84c90eeb25d, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.7C1F6B6585B7AE07358F4C9F644866CB.d.5D3784AAFC70B14EFFA2192F88694B56.e.1325}], script=argument[0].scrollIntoView(true);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53711/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb3d3e0ee7d95663cf53c84c90eeb25d
+2025-07-26 15:58:56 [main] ERROR DBConnection - Error while executing query
+2025-07-26 15:58:57 [main] ERROR ActionDriver - Text are not matching: Igor not equals null null
+2025-07-26 16:00:46 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ef9a4a28870c1fb277bf2d981db66880, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.10CA455DA5364C28F6F54C7885DAF301.d.4F79D0B750D03EEFB2F5A5D1FBF5A99E.e.1325}], script=argument[0].scrollIntoView(true);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53852/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef9a4a28870c1fb277bf2d981db66880
+2025-07-26 16:00:47 [main] ERROR DBConnection - Error while executing query
+2025-07-26 16:00:47 [main] ERROR ActionDriver - Text are not matching: Igor not equals null null
+2025-07-26 16:01:59 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b96872fe05fad33a6527fbe792dc2a5, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.783E75C1ED697AFE2D52DE811B5D77B7.d.6F5343C62CE07738B4D3639BEA0A770C.e.1325}], script=argument[0].scrollIntoView(true);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54002}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54002/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b96872fe05fad33a6527fbe792dc2a5
+2025-07-26 16:02:00 [main] ERROR ActionDriver - Text are not matching: Igor not equals name
+2025-07-26 16:03:16 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69ff5bd4a8c2b611b540d87cdefcca67, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.C8248ABF24D7C44FF6CAD9AEEA3DD5F3.d.3DE08120DB58BA729AA3758ECAA0FD24.e.1325}], script=argument[0].scrollIntoView(true);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54130/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 69ff5bd4a8c2b611b540d87cdefcca67
+2025-07-26 16:03:17 [main] ERROR ActionDriver - Text are not matching: Igor not equals Kovalenko
+2025-07-26 16:05:06 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d00d76567ea57225b6e7afd3845f7502, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.FF6E9A27360EBB75B4FE934A85B5F339.d.863FA5E2F2C9352622AEE05C025F48AB.e.1325}], script=argument[0].scrollIntoView(true);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54266}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54266/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d00d76567ea57225b6e7afd3845f7502
+2025-07-26 16:24:33 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fff4f106f9e5ebc488bdd7d482cad0d, executeScript {script=argument[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.2B94C12CE406CC583AACF913FD553738.d.1897885850B7EBD2ED04ABE68EE18F27.e.1325}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55374/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fff4f106f9e5ebc488bdd7d482cad0d
+2025-07-26 16:25:14 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edb8d74c21536be830d6582cab56a426, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.68911BB6DB0035763E84A61B1C682447.d.C7D5FC704919A245B087639962087094.e.1325}], script=argument[0].scrollIntoView(true);}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55475}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55475/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edb8d74c21536be830d6582cab56a426
+2025-07-26 16:25:15 [main] ERROR ActionDriver - Text are not matching: Igor not equals Igor +
+2025-07-26 16:26:31 [main] ERROR ActionDriver - Unable to locate an element javascript error: argument is not defined
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9cdadc33bb6601a8144b95fa97606b0, executeScript {script=argument[0].scrollIntoView(true);, args=[{element-6066-11e4-a52e-4f735466cecf=f.1F0C7DADB6AF693BACF1DB5716D58BF2.d.1E87EC0DF8DEF54E191E4024AB2AAD69.e.1325}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\bardinov\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55595/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9cdadc33bb6601a8144b95fa97606b0
+2025-07-26 16:26:31 [main] ERROR ActionDriver - Text are not matching: Igor not equals Igor +
